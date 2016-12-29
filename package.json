@@ -1,7 +1,7 @@
 {
-  "name": "sequelize-auto",
+  "name": "nickel-sequelize-auto",
   "version": "0.4.18",
-  "description": "Automatically generate bare sequelize models from your database.",
+  "description": "Automatically generate bare sequelize models with associations from your database.",
   "main": "index",
   "keywords": [
     "mysql",
@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize-auto.git"
+    "url": "https://github.com/nickel-js/sequelize-auto.git"
   },
   "bugs": {
-    "url": "https://github.com/sequelize/sequelize-auto/issues"
+    "url": "https://github.com/nickel-js/sequelize-auto/issues"
   },
   "nyc": {
     "exclude": [
@@ -44,7 +44,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "Daniel Durante <me@danieldurante.com>",
+  "author": "ElKornacio <ek@ek-mail.ru>",
   "license": "MIT",
   "dependencies": {
     "async": "^1.2.1",
